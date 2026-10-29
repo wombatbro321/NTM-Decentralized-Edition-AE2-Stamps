@@ -17,6 +17,8 @@
 
 ---
 
+This fork merely adds inscriber presses from AE2, ExtendedAE, and AdvancedAE as stamp types for presses
+
 A port of the legendary **[HBM's Nuclear Tech Mod](https://github.com/HbmMods/Hbm-s-Nuclear-Tech-GIT)** from Minecraft 1.7.10 —
 in fact a **backport of [NTM: NEXT](https://github.com/Warfactory-Official/ntm-next)** from Minecraft 26.2 to 1.21.1.
 
