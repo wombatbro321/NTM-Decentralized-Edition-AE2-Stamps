@@ -65,7 +65,13 @@ public class ItemStamp extends ItemCompat {
         PRINTING5,
         PRINTING6,
         PRINTING7,
-        PRINTING8
+        PRINTING8,
+        CALCPRESS,
+        ENGINEERINGPRESS,
+        LOGICPRESS,
+        SILICONPRESS,
+        CONCURRENTPRESS,
+        QUANTUMPRESS
     }
 
     private static volatile @Nullable Map<StampType, List<Item>> byType;
