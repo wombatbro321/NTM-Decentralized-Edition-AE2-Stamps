@@ -47,6 +47,7 @@ public class ItemStamp extends ItemCompat {
             case "ae2:engineering_processor_press" -> StampType.ENGINEERING;
             case "extendedae:concurrent_processor_press" -> StampType.CONCURRENT;
             case "advanced_ae:quantum_processor_press" -> StampType.QUANTUM;
+            case "megacells:accumulation_processor_press" -> StampType.ACCUMULATION;
             default -> null;
         };
     }
@@ -92,7 +93,8 @@ public class ItemStamp extends ItemCompat {
         CALCULATION,
         ENGINEERING,
         CONCURRENT,
-        QUANTUM
+        QUANTUM,
+        ACCUMULATION
     }
 
     private static volatile @Nullable Map<StampType, List<Item>> byType;
