@@ -118,6 +118,7 @@ public class ItemStamp extends ItemCompat {
             addIfPresent(map, StampType.ENGINEERING, "ae2:engineering_processor_press");
             addIfPresent(map, StampType.CONCURRENT, "extendedae:concurrent_processor_press");
             addIfPresent(map, StampType.QUANTUM, "advanced_ae:quantum_processor_press");
+            addIfPresnet(map, StampType.ACCUMULATION, "megacells:accumulation_processor_press");
 
             map.replaceAll((t, items) -> List.copyOf(items));
             byType = held = map;
